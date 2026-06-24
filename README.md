@@ -69,7 +69,7 @@ Berisi informasi kontak untuk menghubungi saya melalui email atau media sosial.
 ## Live Demo
 
 Website dapat diakses melalui link berikut:
-https://portfolio-kamu.vercel.app
+https://lodi-portfolio.vercel.app/
 
 ---
 
