@@ -14,7 +14,7 @@ import {
 
 import { VscVscode } from "react-icons/vsc";
 
-import Figma from "../../Assets/Figma.svg"
+import Figma from "../../assets/Figma.svg"
 
 function Skills() {
 
