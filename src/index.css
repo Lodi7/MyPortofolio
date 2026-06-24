@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply bg-[#0C131C];
+}
+
+@keyframes loadingBar {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+.animate-loadingBar {
+  animation: loadingBar 2.5s ease forwards;
+}
+
+@keyframes tvGlitch {
+  0% {
+    transform: translate(0);
+    filter: none;
+  }
+
+  10% {
+    transform: translate(-5px, 0);
+    filter:
+      drop-shadow(-4px 0 red) drop-shadow(4px 0 cyan);
+  }
+
+  20% {
+    transform: translate(5px, 0);
+  }
+
+  30% {
+    transform: translate(-3px, 0);
+  }
+
+  40% {
+    transform: translate(3px, 0);
+  }
+
+  50% {
+    transform: translate(0);
+    filter:
+      drop-shadow(-6px 0 red) drop-shadow(6px 0 cyan);
+  }
+
+  100% {
+    transform: translate(0);
+    filter: none;
+  }
+}
+
+.tv-glitch {
+  animation: tvGlitch 0.15s ease-in-out;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-50% - 1rem));
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-50% - 0.75rem));
+  }
+}
+
+@keyframes marquee-reverse {
+  from {
+    transform: translateX(calc(-50% - 0.75rem));
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee-reverse {
+  animation: marquee-reverse 25s linear infinite;
+}
+
+.animate-marquee:hover,
+.animate-marquee-reverse:hover {
+  animation-play-state: paused;
+}
+
+@keyframes traceTop {
+  from {
+    left: -30%;
+  }
+
+  to {
+    left: 130%;
+  }
+}
+
+@keyframes traceRight {
+  from {
+    top: -30%;
+  }
+
+  to {
+    top: 130%;
+  }
+}
+
+@keyframes traceBottom {
+  from {
+    right: -30%;
+  }
+
+  to {
+    right: 130%;
+  }
+}
+
+@keyframes traceLeft {
+  from {
+    bottom: -30%;
+  }
+
+  to {
+    bottom: 130%;
+  }
+}
+
+.animate-traceTop {
+  animation: traceTop 4s linear infinite;
+}
+
+.animate-traceRight {
+  animation: traceRight 4s linear infinite 1s;
+}
+
+.animate-traceBottom {
+  animation: traceBottom 4s linear infinite 2s;
+}
+
+.animate-traceLeft {
+  animation: traceLeft 4s linear infinite 3s;
+}
