@@ -34,7 +34,7 @@ function Projects() {
             tech: ["React", "Tailwind CSS", "JavaScript"],
             featured: true,
             github: "https://github.com/Lodi7/MyPortofolio",
-            demo: "https://lodi-portfolio.vercel.app/",
+            demo: "https://lodi-portofolio.vercel.app/",
         },
         {
             id: 3,
