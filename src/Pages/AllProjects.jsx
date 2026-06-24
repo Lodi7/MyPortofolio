@@ -3,6 +3,12 @@ import { ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import CardProject from "../Components/Ui/CardProject";
 import Particles from "../Components/Animations/Particles";
+import LodiHealth from "../assets/images/LodiHealth.png";
+import PortfolioWeb from "../assets/images/portofolioWeb.png";
+import AIHealthAssistant from "../assets/images/AIHealthAssistant.png";
+import LabHub from "../assets/images/LabHub.png";
+import PEMIRA from "../assets/images/PEMIRA.png";
+import LodiHealthMobile from "../assets/images/LodiHealth-Mobile.png";
 
 function AllProjects() {
 
@@ -13,7 +19,7 @@ function AllProjects() {
             title: "LodiHealth",
             type: "development",
             description: "Platform layanan kesehatan digital yang menyediakan informasi dokter, rumah sakit, artikel kesehatan, serta pembelian obat secara online dengan integrasi API.",
-            image: "src/assets/images/LodiHealth.png",
+            image: LodiHealth,
             tech: ["React", "Tailwind CSS", "JavaScript"],
             featured: true,
             github: "https://github.com/Lodi7/Lodi-Health",
@@ -24,7 +30,7 @@ function AllProjects() {
             title: "Personal Portfolio Website",
             type: "development",
             description: "Website portfolio pribadi dengan React dan Tailwind CSS yang responsif, modern, dan dilengkapi animasi interaktif untuk menampilkan project dan skill.",
-            image: "src/assets/images/portofolioWeb.png",
+            image: PortfolioWeb,
             tech: ["React", "Tailwind CSS", "JavaScript"],
             featured: true,
             github: "https://github.com/Lodi7/MyPortofolio",
@@ -35,7 +41,7 @@ function AllProjects() {
             title: "AI Health Assistant",
             type: "development",
             description: "Asisten kesehatan berbasis AI yang membantu pengguna mencari informasi kesehatan, dokter, rumah sakit, dan berita kesehatan melalui chatbot interaktif.",
-            image: "src/assets/images/AIHealthAssistant.png",
+            image: AIHealthAssistant,
             tech: ["Python", "Streamlit", "Gemini API"],
             featured: false,
             github: "https://github.com/Lodi7/AssistantKesehatan",
@@ -46,7 +52,7 @@ function AllProjects() {
             title: "LabHub",
             type: "development",
             description: "Platform reservasi laboratorium dengan fitur OTP, jadwal real-time, dan dashboard admin untuk pengelolaan peminjaman ruangan secara efisien.",
-            image: "src/assets/images/LabHub.png",
+            image: LabHub,
             tech: ["PHP", "Tailwind CSS", "MySQL", "JavaScript"],
             featured: true,
             github: "https://github.com/Lodi7/Sistem-Reservasi-Ruangan",
@@ -57,7 +63,7 @@ function AllProjects() {
             title: "PEMIRA E-Voting UI/UX",
             type: "design",
             description: "Desain UI/UX aplikasi mobile e-voting untuk PEMIRA dengan design system, user flow, dan prototype interaktif pemilihan mahasiswa.",
-            image: "src/assets/images/PEMIRA.png",
+            image: PEMIRA,
             tech: ["Figma", "UI/UX Design"],
             featured: true,
             figma: "https://www.figma.com/design/epS7cDkSLqpjUcFl2OjNhz/PEMIRA-E-Voting-UI-UX?node-id=0-1&p=f&t=gzlnmHcOD7Lju6E6-0",
@@ -68,7 +74,7 @@ function AllProjects() {
             title: "LodiHealth Mobile UI/UX",
             type: "design",
             description: "Desain aplikasi mobile HealthTech dengan fokus pada user flow, design system, komponen reusable, dan prototype interaktif untuk pengalaman pengguna yang mudah.",
-            image: "src/assets/images/LodiHealth-Mobile.png",
+            image: LodiHealthMobile,
             tech: ["Figma", "UI/UX Design"],
             featured: false,
             figma: "https://www.figma.com/design/pLrznuo7pqUMXCuIk6gzcD/LodiHealths-Mobile-UI-UX?node-id=2-12297&p=f&t=M9IP1DVVE4FSU4x2-0",

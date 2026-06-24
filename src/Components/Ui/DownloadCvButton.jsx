@@ -1,8 +1,8 @@
 function DownloadCvButton() {
     return (
         <a
-            href="/cv.pdf"
-            download="cv.pdf"
+            href="/CV ATS_Lodi Galang P.S.pdf"
+            download="CV ATS_Lodi Galang P.S.pdf"
             className="
             group
             relative
