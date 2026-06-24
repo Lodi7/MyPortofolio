@@ -2,7 +2,7 @@ import TextType from '../Animations/TextType'
 import DownloadCvButton from '../Ui/DownloadCvButton'
 import ViewProjectButton from '../Ui/ViewProjectButton'
 import AvatarHero from '../Ui/AvatarHero'
-import Profile from '../../Assets/Profile.jpg'
+import Profile from '../../assets/Profile.jpg'
 
 import { FaLinkedinIn, FaInstagram, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
